@@ -2,9 +2,9 @@
   "name": "promise-queue",
   "version": "0.0.1",
   "description": "A simple promise queue for nodejs",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/test.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/kaidoe/promise-queue/issues"
   },
-  "homepage": "https://github.com/kaidoe/promise-queue"
+  "homepage": "https://github.com/kaidoe/promise-queue",
+  "devDependencies": {
+    "bluebird": "^2.9.25"
+  }
 }
