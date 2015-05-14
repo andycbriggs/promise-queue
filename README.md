@@ -20,7 +20,7 @@ var task = function () {
   });
 }
 
-// task will run immediately, further tasks will be queued to run one completion
+// task will run immediately, further tasks will be queued to run on completion
 promiseQueue.queue(task);
 
 ```
